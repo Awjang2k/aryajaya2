@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/favicon2-02.png" />
+    <title>AryaJaya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body> 
+
+    <!-- nav -->
+<header class="sticky top-0 left-0 w-full z-30">
+    <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <!-- Logo -->
+        <div class="flex-1 md:flex md:items-center md:gap-12">
+          <a id="logo" class="block text-teal-600" href="index.html">
+            <span class="sr-only">Home</span>
+            <img class="h-12" src="/assets/arjaylogohitam-02.png" alt="">
+          </a>
+        </div>
+  
+        <!-- Desktop Nav -->
+        <div class="md:flex md:items-center md:gap-12">
+          <nav aria-label="Global" class="hidden md:block">
+            <ul class="flex items-center gap-6 text-sm">
+              <li>
+                <a class="text-white transition hover:text-gray-900" href="index.html"> Home </a>
+              </li>
+              <li>
+                <a class="text-white transition hover:text-gray-900" href="about.html"> About & Services </a>
+              </li>
+              
+              <li>
+                <a class="text-white transition hover:text-gray-900" href="portfolio.html"> Portfolio </a>
+              </li>
+              <li>
+                <a class="text-white transition hover:text-gray-900" href="project.html"> Projects </a>
+              </li>
+            </ul>
+          </nav>
+  
+          <!-- Contact Button -->
+          <div class="flex items-center gap-4">
+            <div class="sm:flex sm:gap-4">
+              <a
+                class="rounded-md bg-white px-5 py-2.5 text-sm font-medium text-black shadow hover:bg-gray-900 transition hover:text-gray-100 over:text-gray-900"
+                href="contact-us.html"
+              >
+                Contact Us
+              </a>
+            </div>
+  
+            <!-- Hamburger Button (Mobile) -->
+            <div class="block md:hidden z-40">
+              <button id="menu-button" class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="size-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="hidden bg-gray-900 text-white absolute top-0 left-0 w-full z-20">
+      <ul class="flex flex-col items-start gap-6 text-sm py-4 px-4">
+        <li>
+          <a class="text-white transition hover:text-gray-900 hover:bg-gray-100" href="index.html"> Home </a>
+        </li>
+        <li>
+          <a class="text-white transition hover:text-gray-900 hover:bg-gray-100" href="about.html"> About & Services </a>
+        </li>
+        <li>
+          <a class="text-white transition hover:text-gray-900 hover:bg-gray-100" href="portfolio.html"> Portfolio </a>
+        </li>
+        <li>
+          <a class="text-white transition hover:text-gray-900 hover:bg-gray-100" href="project.html"> Projects </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+<!-- nav -->
+
+<!-- foto atas -->
+<div class="-mt-20">
+    <img src="/assets/rapat.jpg" alt="" class="h-60 w-full gambaratas object-cover">
+ </div>
+<!-- foto atas -->
+
+
+
+<!-- Acvhiever -->
+<!-- <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="/assets/achieve.png" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="/assets/achieve 2.png" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="/assets/achieve 3.png" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="/assets/achieve 4.png" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
+    </div>
+</div> -->
+<!-- Acvhiever -->
+
+<!-- dihijikeun kabeh -->
+ <div class="bg-gray-100">
+<div class="pt-20 text-center font-bold text-5xl">
+    <h1 class="pb-10"> Our client</h1>
+    <div class="container-logo md:px-24 px-4 lg:px-48">
+        <div class="grid grid-cols-5 gap-0 justify-items-center mx-auto">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/1.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/2.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/3.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/4.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/5.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/6.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/7.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/8.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/9.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/10.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/11.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/12.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/13.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/14.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/15.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/16.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/17.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/18.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/19.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/20.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/21.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/22.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/23.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/24.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/25.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/26.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/27.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/28.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/29.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/30.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/31.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/32.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/33.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/34.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/35.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/36.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/37.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/38.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/39.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/40.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/41.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/42.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/43.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/44.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/45.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/46.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/47.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/48.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/49.png" alt="">
+            <img class="h-20 images-logo w-auto" src="/assets/Logo Client Arya Jaya (3)/50.png" alt="">
+        </div>
+    </div>
+</div>
+ </div>
+<!-- dihijikeun kabeh -->
+
+<!-- achiver baru -->
+<div class="overflow-hidden  py-24 sm:py-32 -mt-20">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div
+        class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+      >
+        <!--  gambar di kolom pertama -->
+        <div class="lg:pr-8 lg:pt-4">
+          <img
+            src="/assets/achieve.png"
+            alt="kateringfoto"
+            class="w-[48rem] max-w-200 h-[40rem] max-h-auto rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0 object-cover"
+          />
+        </div>
+
+        <!--  teks kanan -->
+        <div class="lg:pr-8 lg:pt-4">
+          <div class="lg:max-w-lg">
+            <h2
+              id="kerjasamaBrand"
+              class="text-sm font-semibold leading-7 text-black"
+            >
+              What We Have Done
+            </h2>
+            <p
+              class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+            >
+              Our Achiever
+            </p>
+            <p class="mt-2 text-md leading-8 text-gray-600">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, error.
+            </p>
+            
+<!-- timeline -->
+<ol class="mt-10 ml-3 relative border-s border-gray-200 dark:border-gray-700">                  
+  <li class="mb-10 ms-6">            
+      <span class="absolute flex items-center justify-center w-6 h-6 bg-gray-900 rounded-full -start-3 ring-8 ring-white ">
+          <svg class="w-2.5 h-2.5 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+          </svg>
+      </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 ">2nd Top Achiver<span class="bg-gray-800 text-white text-sm font-medium me-2 px-2.5 py-0.5 rounded  ms-3">Latest</span></h3>
+      <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on August 05, 2024</time>
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur.</p>
+      <a href="https://ojursvyne6r.typeform.com/to/ITdmxnyH" target="_blank" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+  <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+  <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+</svg>Lorem ipsum dolor sit amet.</a>
+  </li>
+  <li class="mb-10 ms-6">
+      <span class="absolute flex items-center justify-center w-6 h-6 bg-gray-900 rounded-full -start-3 ring-8 ring-white  ">
+          <svg class="w-2.5 h-2.5 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+          </svg>
+      </span>
+      <h3 class="mb-1 text-lg font-semibold text-gray-900 ">#2nd Top Achiever</h3>
+      <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2022</time>
+      <p class="text-base font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, necessitatibus!</p>
+  </li>
+  <li class="ms-6">
+      <span class="absolute flex items-center justify-center w-6 h-6 bg-gray-900 rounded-full -start-3 ring-8 ring-white ">
+          <svg class="w-2.5 h-2.5 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+          </svg>
+      </span>
+      <h3 class="mb-1 text-lg font-semibold text-gray-900 ">#1st Top Achiever</h3>
+      <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2021</time>
+      <p class="text-base font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, iste.</p>
+  </li>
+</ol>
+
+
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- achiver baru -->
+
+<!-- testimoni -->
+ <!-- component -->
+
+
+<div class="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center py-5">
+    <div class="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800">
+        <div class="w-full max-w-6xl mx-auto">
+            <div class="text-center max-w-xl mx-auto">
+                <h1 class="text-6xl md:text-7xl font-bold mb-5 text-gray-600">What people <br>are saying.</h1>
+                <h3 class="text-xl mb-5 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <div class="text-center mb-10">
+                    <!-- warna garis -->
+                    <span class="inline-block w-1 h-1 rounded-full bg-gray-900 ml-1"></span>
+                    <span class="inline-block w-3 h-1 rounded-full bg-gray-900 ml-1"></span>
+                    <span class="inline-block w-40 h-1 rounded-full bg-gray-900"></span>
+                    <span class="inline-block w-3 h-1 rounded-full bg-gray-900 ml-1"></span>
+                    <span class="inline-block w-1 h-1 rounded-full bg-gray-900 ml-1"></span>
+                </div>
+            </div>
+            <div class="-mx-3 md:flex items-start">
+                <div class="px-3 md:w-1/3">
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=1" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Kenzie Edgar.</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=2" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Stevie Tifft.</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 md:w-1/3">
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=3" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Tommie Ewart.</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=4" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Charlie Howse.</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 md:w-1/3">
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=5" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Nevada Herbertson.</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum, laboriosam nostrum facere exercitationem pariatur deserunt tempora molestiae assumenda nesciunt alias eius? Illo, autem!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=6" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Kris Stanton.</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- testimoni -->
+
+<!-- footer -->
+<footer class="bg-black">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="mt-10 sm:flex sm:items-center sm:justify-between">
+        <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+          <img src="/assets/arjaylogohitam-02.png" class="h-14" alt="Logo" />
+          <div>
+            <span class="self-center text-gray-200 text-2xl font-semibold whitespace-nowrap">AryaJaya</span>
+            <p class="text-gray-400 text-sm">Jl. Batununggal Indah Raya No.305, Batununggal, Kec. Bandung Kidul, Kota Bandung, Jawa Barat 40266</p>
+          </div>
+        </a>
+  
+        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <li>
+            <a href="https://www.instagram.com/koffiekyran" target="_blank" class="hover:underline me-4 md:me-6">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@koffiekyran" target="_blank" class="hover:underline me-4 md:me-6">Tiktok</a>
+          </li>
+          <li>
+            <a href="sales@aryajaya.co.id" class="hover:underline me-4 md:me-6">Email</a>
+          </li>
+          <li>
+            <a href="contact-us.html" target="_blank" class="hover:underline">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+      <hr class="my-6 bg-green-800/50 sm:mx-auto lg:my-8" />
+  
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="" class="hover:underline">AryaJaya</a>. All Rights Reserved.</span>
+    </div>
+  </footer>
+<!-- footer -->
+
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <script src="action.js"></script>
+</body>

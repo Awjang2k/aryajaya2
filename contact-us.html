@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/favicon2-02.png" />
+    <title>AryaJaya</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- nav -->
+    <header class="sticky top-0 left-0 w-full z-30">
+        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+          <div class="flex h-16 items-center justify-between">
+            <!-- Logo -->
+            <div class="flex-1 md:flex md:items-center md:gap-12">
+              <a id="logo" class="block text-teal-600" href="index.html">
+                <span class="sr-only">Home</span>
+                <img class="h-12" src="/assets/arjaylogohitam-02.png" alt="">
+              </a>
+            </div>
+      
+            <!-- Desktop Nav -->
+            <div class="md:flex md:items-center md:gap-12">
+              <nav aria-label="Global" class="hidden md:block">
+                <ul class="flex items-center gap-6 text-sm">
+                  <li>
+                    <a class="text-white transition hover:text-gray-300" href="index.html"> Home </a>
+                  </li>
+                  <li>
+                    <a class="text-white transition hover:text-gray-300" href="about.html"> About & Services </a>
+                  </li>
+                  
+                  <li>
+                    <a class="text-white transition hover:text-gray-300" href="portfolio.html"> Portfolio </a>
+                  </li>
+                  <li>
+                    <a class="text-white transition hover:text-gray-300" href="project.html"> Projects </a>
+                  </li>
+                </ul>
+              </nav>
+      
+              <!-- Contact Button -->
+              <div class="flex items-center gap-4">
+                <div class="sm:flex sm:gap-4">
+                  <a
+                    class="rounded-md bg-white px-5 py-2.5 text-sm font-medium text-black shadow hover:bg-gray-900 transition hover:text-gray-100 over:text-gray-900"
+                    href="contact-us.html"
+                  >
+                    Contact Us
+                  </a>
+                </div>
+      
+                <!-- Hamburger Button (Mobile) -->
+                <div class="block md:hidden z-40">
+                  <button id="menu-button" class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="size-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Mobile Menu -->
+        <nav id="mobile-menu" class="hidden bg-gray-900 text-white absolute top-0 left-0 w-full z-20">
+          <ul class="flex flex-col items-start gap-6 text-sm py-4 px-4">
+            <li>
+              <a class="text-white transition hover:text-gray-300 hover:bg-gray-100" href="index.html"> Home </a>
+            </li>
+            <li>
+              <a class="text-white transition hover:text-gray-300 hover:bg-gray-100" href="about.html"> About & Services </a>
+            </li>
+            <li>
+              <a class="text-white transition hover:text-gray-300 hover:bg-gray-100" href="portfolio.html"> Portfolio </a>
+            </li>
+            <li>
+              <a class="text-white transition hover:text-gray-300 hover:bg-gray-100" href="project.html"> Projects </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+<!-- nav -->
+
+<!-- foto atas -->
+<div class="-mt-20">
+    <img src="/assets/sunset contruction.jpg" alt="" class="h-60 w-full gambaratas object-cover">
+ </div>
+<!-- foto atas -->
+
+    <section class="py-6 dark:bg-gray-100 dark:text-gray-900">
+        <div class="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
+            <div class="py-6 md:py-0 md:px-6">
+                <h1 class="text-4xl font-bold">Get in touch</h1>
+                <p class="pt-2 pb-4">Kami percaya bahwa kenyamanan adalah investasi. Mari berinvestasi bersama dalam menciptakan lingkungan yang sejuk dan sehat untuk Anda dan orang-orang yang Anda sayangi.</p>
+                <div class="space-y-4">
+                    <p class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2 sm:mr-6">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <a href="https://maps.app.goo.gl/Md9GoZnA1EY2r5VD8" target="_blank">
+                            <span>Jl. Batununggal Indah Raya No.305</span>
+                        </a>
+                    </p>
+                    <p class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2 sm:mr-6">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                        </svg>
+                        <a href="https://wa.me/6282115668512" target="_blank">
+                            <span class="underline text-orange-500">+6282115668512</span>
+                        </a>
+                    </p>
+                    <p class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2 sm:mr-6">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                        </svg>
+                        <span>sales@aryajaya.co.id</span>
+                    </p>
+                </div>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" novalidate="" class="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+                <!-- Access Key -->
+    <input type="hidden" name="access_key" value="65424b22-2b88-418d-9389-5a9cfab83fd9">
+                <label class="block">
+                    <span class="mb-1">Name Company</span>
+                    <input name="Name Company" type="text" placeholder="PT. Anda" required class="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100">
+                </label>
+                <label class="block">
+                    <span class="mb-1">Full name</span>
+                    <input name="Sender Name" type="text" placeholder="Nama Lengkap" required class="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100">
+                </label>
+                <label class="block">
+                    <span class="mb-1">Email address</span>
+                    <input name="Email" type="email" placeholder="nama@gmail.com" required class="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100">
+                </label>
+                <label class="block">
+                    <span class="mb-1">Message</span>
+                    <textarea name="message" required placeholder="Masukan deskripsi / kami minat bekerja sama untuk keperluan ..." rows="3" class="block w-full rounded-md border dark:bg-gray-100"></textarea>
+                </label>
+                <button type="submit" class="self-center px-8 py-3 text-lg rounded  bg-gray-900 text-gray-50 transition hover:bg-white hover:text-gray-900 ">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+<footer class="bg-black">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="mt-10 sm:flex sm:items-center sm:justify-between">
+        <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+          <img src="/assets/arjaylogohitam-02.png" class="h-14" alt="Logo" />
+          <div>
+            <span class="self-center text-gray-200 text-2xl font-semibold whitespace-nowrap">AryaJaya</span>
+            <p class="text-gray-400 text-sm">Jl. Batununggal Indah Raya No.305, Batununggal, Kec. Bandung Kidul, Kota Bandung, Jawa Barat 40266</p>
+          </div>
+        </a>
+  
+        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <li>
+            <a href="https://www.instagram.com/koffiekyran" target="_blank" class="hover:underline me-4 md:me-6">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@koffiekyran" target="_blank" class="hover:underline me-4 md:me-6">Tiktok</a>
+          </li>
+          <li>
+            <a href="sales@aryajaya.co.id" class="hover:underline me-4 md:me-6">Email</a>
+          </li>
+          <li>
+            <a href="contact-us.html" target="_blank" class="hover:underline">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+      <hr class="my-6 bg-green-800/50 sm:mx-auto lg:my-8" />
+  
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="" class="hover:underline">AryaJaya</a>. All Rights Reserved.</span>
+    </div>
+  </footer>
+<!-- footer -->
+
+    <script src="action.js"></script>
+</body>

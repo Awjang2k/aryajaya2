@@ -1,0 +1,77 @@
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400"); */
+
+.blinking-cursor {
+    user-select: none;
+    animation: blink 1s steps(2, start) infinite;
+    color: white;
+  }
+  
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  
+  #mobile-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 0; /* Menu slides from top */
+    opacity: 0; /* Start hidden */
+    transform: translateY(-100%); /* Offscreen at top */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Slide down animation */
+  #mobile-menu.active {
+    display: block; /* Ensure the menu is shown */
+    opacity: 1; /* Visible */
+    transform: translateY(0); /* Slide down */
+  }
+  
+  #mobile-menu.closing {
+    opacity: 0; /* Fade out */
+    transform: translateY(-100%); /* Slide up */
+  }
+  
+  a {
+    cursor: pointer;
+  }
+ /* scroll featured work */
+ 
+ #carousel {
+    display: flex;
+    gap: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  @media screen and (max-width: 767px) {
+    .hide {
+      display: none;
+    }}
+
+    header {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    header.scrolled {
+        background-color: rgba(0, 0, 0, 1); /* Contoh warna dengan transparansi */
+      }
+
+      .fotoexpertise {
+        position: absolute;
+        margin-left: 620px;
+        width: auto;
+        height: 450px;
+    }
+    .fotoexpertise1 {
+        position: relative;
+        border-radius: 3%;
+      height: 450px;
+      object-fit: cover;
+    }
+
+    .img-stretch {
+      height: 100%; /* Tinggi gambar disesuaikan dengan container */
+      object-fit: cover; /* Gambar tetap menjaga aspek rasio dan mengisi tinggi container */
+      max-height: 500px; /* Batasi tinggi maksimal sesuai kebutuhan agar tidak terlalu panjang */
+  }

@@ -1,0 +1,44 @@
+.border-container {
+    border: 2px solid #000; /* Border hitam */
+    border-radius: 8px; /* Membuat border rounded */
+    padding: 20px; /* Spasi dalam elemen */
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberi bayangan */
+  }
+
+  /* Animasi smooth pada accordion */
+  details {
+    transition: max-height 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+details[open] .content {
+    display: block;
+    height: auto;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.content {
+    opacity: 0;
+    height: 0;
+    transform: translateY(-10px);
+    display: block;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+summary {
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+summary:hover {
+    background-color: #e2e8f0;
+}
+
+/* Menyembunyikan default marker pada <summary> */
+summary::-webkit-details-marker {
+    display: none;
+}
